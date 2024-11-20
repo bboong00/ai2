@@ -54,7 +54,7 @@ def display_right_content(labels):
 
     # 3rd Row - Text based on labels
     for i, label in enumerate(labels[:3]):
-        with cols[i]:
+        with cols[i]:    
             st.write(f"{label} 이거 재밌어요.")
 
 # 모델 로드
